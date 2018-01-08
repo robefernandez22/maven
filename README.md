@@ -17,10 +17,11 @@ que todos los métodos están correctos y bien realizados.
 1. Primero deberás clonar este proyecto en tu repositorio local con la orden "git clone" y a continuación la dirección de
 este proyecto. Tal que así ---> "git clone https://github.com/robefernandez22/Maven.git" (sin las comillas, claro).
 
-2. Te creará una carpeta llamada "Maven", a la cual deberemos trasladarnos, una vez dentro de la misma procedemos a compilar
-con el comando "mvn compile". Después de eso todo debería estar correcto por lo que pasamos al siguiente paso.
+2. Te creará una carpeta llamada "Maven", a la cual deberemos trasladarnos, una vez dentro de la misma procedemos a construir
+con el comando "mvn package". Después de eso todo debería estar correcto por lo que pasamos al siguiente paso.
 
 3. Si vemos el contenido de la carpte en la que estamos ("Maven"), veremos que nos ha creado una carpeta "target" la cual
 contiene los ".class" ("Bus.class" y "PruebaBus.class"). Después de todas estas comprobaciones pasamos al siguiente paso.
 
-4. Ahora ejecutamos el siguiente comando situados en la misma ruta, no nos movemos en ningún momento: "mvn package".
+4. Y el último paso es probar el JAR que nos crea y lo hacemos de la siguiente manera ---> "java -cp target/MiProyectoMaven.jar:. 
+autobus.PruebaBus"
