@@ -24,4 +24,5 @@ con el comando "mvn package". Después de eso todo debería estar correcto por l
 contiene los ".class" ("Bus.class" y "PruebaBus.class"). Después de todas estas comprobaciones pasamos al siguiente paso.
 
 4. Y el último paso es probar el JAR que nos crea y lo hacemos de la siguiente manera ---> "java -cp target/MiProyectoMaven.jar:. 
-autobus.PruebaBus"
+autobus.PruebaBus".
+
